@@ -10,6 +10,7 @@ st.write("Upload a CSV file containing movie review comments")
 
 uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
 
+
 def analyze_sentiment(text):
     polarity = TextBlob(str(text)).sentiment.polarity
     return "Positive" if polarity >= 0 else "Negative"

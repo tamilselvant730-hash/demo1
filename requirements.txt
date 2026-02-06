@@ -1,3 +1,7 @@
 streamlit
 textblob
 nltk
+streamlit
+google-generativeai
+PyPDF2
+python-dotenv
